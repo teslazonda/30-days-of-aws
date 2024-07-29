@@ -12,3 +12,11 @@ GNU General Public License for more details. --->
 ## IAM: Users and Groups
 
 * IAM = Identity and Access Management, **Global** service
+
+### Users
+
+* It is bad practice to use the `root` account, so we often create admin IAM users to interact with AWS.
+
+### Groups
+
+* Groups grant multiple permissions to users. Users of the same group will have the same permissions, making it easier manage access across many different users.
