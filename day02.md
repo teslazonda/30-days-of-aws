@@ -21,5 +21,34 @@ GNU General Public License for more details. --->
 `aws iam list-users`
 * List all the users associated with your AWS account
 
+## AWS CloudShell
+
+* A terminal in the cloud that is free to use. An alternative to using the CLI locally.
+* Only available in certain regions.
+
+
+## IAM Roles for Services
+
+* You can assign permissions to AWS services. For example, an EC2 instance wants to access another resource.
+
+* Common roles
+  * EC2 Instance Roles
+  * Lambda Function Roles
+
+## IAM Best Practices
+
+* Do not use the root account.
+* One physical user = One AWS User.
+* Assign users to groups.
+* Create a strong password policy.
+* Use MFA.
+* Create and use Role for giving permissions to AWS services.
+* Use Access Keys for CLI access.
+* IAM Credentials Reports and IAM Accesss Advisor.
+
+### Shared Responsibility Model for IAM
+
+* AWS is responsible for Infra, compliance, and configuration
+* You are responsible for keys, MFA, users groups etc., you are responsible for all access to your account.
 
 
