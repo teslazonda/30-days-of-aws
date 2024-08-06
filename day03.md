@@ -8,3 +8,23 @@ GNU General Public License for more details. --->
 <!--- You should have received a copy of the GNU General Public License along with this program.  If not, see https://www.gnu.org/licenses/ --->
 
 # Day 3 Notes
+
+## EC2 Instance Types
+
+* Instances are optimized for different tasks. For example, compute or storage.
+
+### General Purpose
+* t2.micro used for free tier
+* Balanced performance in compute, storage, and networking.
+
+### Compute optimized
+* Used for High performance applications: gaming, machine learning
+* C-<name> naming convention
+
+### Memory Optimized
+* R-<name> naming convention
+
+### Storage optimized
+* Transaction processes
+* Relational DBs
+
