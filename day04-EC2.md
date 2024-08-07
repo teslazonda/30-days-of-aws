@@ -19,3 +19,18 @@ GNU General Public License for more details. --->
 Security groups are locked to ONE region
 
 Good to maintain one separate security group for SSH access
+
+## How to SSH into an EC2 instance
+
+* Go to your instance on the EC2 dashboard. Ensure your security groups are setup properly.
+
+* Download the corresponding .pem key file for your instance.
+
+Use the command `ssh -i ec2-user@PUBLIC.IP.ADRESS` from within the directory with your .pem file.
+
+You may have to change the permissions for the file.
+
+## EC2 Instance Connect
+
+* Connect to your instance through a terminal in your web browser.
+
