@@ -34,3 +34,30 @@ You may have to change the permissions for the file.
 
 * Connect to your instance through a terminal in your web browser.
 
+## EC2 Purchasing Options
+
+* On-Demand
+    - Pay for what you use:
+        * Linux or Windows - billing per second
+        * No upfront payment
+
+* Reserved
+    - Long workloads
+    - Convertible Reserved Instances
+    - Up to 72% discount compared to On-demand
+
+* Savings Plans - 1 or 3 year commitment to amount of usage.
+    - Commit to a certain type of usage.
+    - Usage beyond EC2 Savings plans are billed at the On-Demand price.
+
+* Spot instances - short cheap workloads that are unreliable.
+    - Can get a discount of up to 90%. Could be lost at anytime.
+    - Good for workloads that are resilient to failure.
+
+* Dedicated Hosts - an entire physical server.
+    - Used for compliance requirements or software bound licenses.
+    - Have more options for specific management than Dedicated Instances.
+
+* Dedicated Instances - No other customers will share your hardware.
+
+* Capacity Reservations - reserve capacity in a specific AZ for any duration.
