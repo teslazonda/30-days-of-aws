@@ -12,4 +12,8 @@ GNU General Public License for more details. --->
 
 ## EBS Volume
 
-- Network drive. 
+* Network drive.
+* Locked to an availability zone
+* Have a provisioned capacity (size in GBs and IOPS)
+* Delete on termination attribute (can be deleted when instance terminates)
+
