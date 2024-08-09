@@ -10,7 +10,7 @@ GNU General Public License for more details. --->
 
 # Day 5 Notes
 
-## EBS Volume
+## EBS Volumes
 
 * Network drive.
 * Locked to an availability zone
