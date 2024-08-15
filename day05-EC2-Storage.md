@@ -16,4 +16,4 @@ GNU General Public License for more details. --->
 * Locked to an availability zone
 * Have a provisioned capacity (size in GBs and IOPS)
 * Delete on termination attribute (can be deleted when instance terminates)
-
+* Can have latency issues when compared with hardware drives
