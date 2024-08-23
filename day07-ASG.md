@@ -9,4 +9,16 @@ GNU General Public License for more details. --->
 
 # Day 7 Notes
 
-## ACS
+## ASG - Auto Scaling Groups
+
+Auto Scaling Groups can be used to automatically increase the number of active instances serving requests.
+
+Setting a maximum number of instances/use limit is very important.
+
+### Scaling Strategies
+
+* Manual scaling - Update manually
+* Dynamic Scaling
+	* Simple - when more than % of CPU is used
+	* Target Tracking Scaling
+	* Predictive scaling - based on Machine Learning analysis
