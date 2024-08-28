@@ -18,3 +18,6 @@ GNU General Public License for more details. --->
 
 ## ECR - Elastic Container Registry
 * Private Docker Registry on AWS.
+
+## Lambda
+Serverless functions.
