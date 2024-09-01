@@ -21,3 +21,4 @@ GNU General Public License for more details. --->
 
 ## Lambda
 Serverless functions.
+Can expand capacity to meet any traffic demand.
