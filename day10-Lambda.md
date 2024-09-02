@@ -20,5 +20,9 @@ GNU General Public License for more details. --->
 * Private Docker Registry on AWS.
 
 ## Lambda
-Serverless functions.
-Can expand capacity to meet any traffic demand.
+* Serverless functions.
+* Can expand capacity to meet any traffic demand.
+* Pay per function call.
+
+
+
